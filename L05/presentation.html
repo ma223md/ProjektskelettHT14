@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Presentation</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/reveal.min.css">
+        <link rel="stylesheet" href="../css/theme/beige.css" id="theme">
+    </head>
+    <body>
+        <div class="reveal">
+        	<div class="slides">
+        		<section>
+        		    <h1>The Semantic Grid System</h1>
+					<h3>- Jajjemän, vad coolt!</h3>
+					<p>
+						<small>Av Moa Alfredsson</a></small>
+					</p>
+				</section>
+				
+        		<section>
+        			<section>
+                        <h3>..va' e' de'?</h3>
+					</section>
+					
+        			<section>
+        			    <img src="pics/SGS.jpg">
+        			</section>
+        		</section>
+        		
+        		<section>
+					<p>
+						<small>Av Moa Alfredsson</a></small>
+					</p>
+				</section>
+        		
+        	</div>
+        </div>
+        <div>
+    		<script src="../lib/js/head.min.js"></script>
+    		<script src="../js/reveal.min.js"></script>
+            <script>
+            	// Display controls in the bottom right corner
+            	Reveal.initialize({
+    				controls: true,
+    				progress: true,
+    				history: true,
+    				center: true,
+    
+    				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+    				
+    				
+    				// Optional libraries used to extend on reveal.js
+    				dependencies: [
+    					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    				]
+            	});
+        	</script>
+    	</div>
+    </body>
+</html>
